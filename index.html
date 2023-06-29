@@ -1,54 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Caxias do Sul</title>
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-
-<!--Nav bar with display flex: icon on the left and four items to the right, connecting with other pages-->  
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Caxias do Sul</title>
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+        <!--Nav bar with display flex: icon on the left and four items to the right, connecting with other pages-->
         <nav class="nav">
             <div class="nav-logo" alt="grape">
-                <a href="index.html"><img class="logo" src="imgs/grape.png" alt="fruit grape as a logo"></a>
+                <a href="index.html"
+                    ><img
+                        class="logo-desktop"
+                        src="imgs/grape.png"
+                        alt="fruit grape as a logo"
+                /></a>
             </div>
             <div class="nav-group">
-                <a class="nav-button" href="pages/the-city.html">Caxias do Sul City</a> 
-                <a class="nav-button" href="pages/lets-eat.html">Let's Eat, Nenna!</a> 
-                <a class="nav-button" href="pages/official-games.html">The Official Games</a> 
-                <a class="nav-button" href="pages/more-and-more.html">More and More</a> 
+                <a class="nav-button" href="pages/the-city.html"
+                    >Caxias do Sul City</a
+                >
+                <a class="nav-button" href="pages/lets-eat.html"
+                    >Let's Eat, Nenna!</a
+                >
+                <a class="nav-button" href="pages/official-games.html"
+                    >The Official Games</a
+                >
+                <a class="nav-button" href="pages/more-and-more.html"
+                    >More and More</a
+                >
             </div>
         </nav>
-<!--Home with display flex column on the left showing phrases about the city with id attribute and display flex 
-    wrap on the right organizing the images about the city  -->   
+
+        <nav class="navbar">
+            <div class="container nav-container">
+                <input class="checkbox" type="checkbox" name="" id="" />
+                <div class="logo-container" alt="grape">
+                    <a href="index.html"
+                        ><img
+                            class="logo"
+                            src="imgs/grape.png"
+                            alt="fruit grape as a logo"
+                    /></a>
+                </div>
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <div class="menu-items">
+                    <li>
+                        <a class="nav-button" href="pages/the-city.html"
+                            >Caxias do Sul City</a
+                        >
+                    </li>
+                    <li>
+                        <a class="nav-button" href="pages/lets-eat.html"
+                            >Let's Eat, Nenna!</a
+                        >
+                    </li>
+                    <li>
+                        <a class="nav-button" href="pages/official-games.html"
+                            >The Official Games</a
+                        >
+                    </li>
+                    <li>
+                        <a class="nav-button" href="pages/more-and-more.html"
+                            >More and More</a
+                        >
+                    </li>
+                </div>
+            </div>
+        </nav>
+        <!--Home with display flex column on the left showing phrases about the city with id attribute and display flex 
+    wrap on the right organizing the images about the city  -->
         <section class="home-container">
             <div class="home-box-1">
                 <ul class="content-group">
-                    <li class="content-item"><p class="content-text" id="idItems">"Has a fountain of grape juice"</p></li>
-                    <li class="content-item"><p class="content-text" id="idItems">"I saw a train leaving through the window"</p></li>
-                    <li class="content-item"><p class="content-text" id="idItems">"Best city to eat grapes with your feet"</p></li>
+                    <li class="content-item">
+                        <p class="content-text" id="idItems">
+                            "Has a fountain of grape juice"
+                        </p>
+                    </li>
+                    <li class="content-item">
+                        <p class="content-text" id="idItems">
+                            "I saw a train leaving through the window"
+                        </p>
+                    </li>
+                    <li class="content-item">
+                        <p class="content-text" id="idItems">
+                            "Best city to eat grapes with your feet"
+                        </p>
+                    </li>
                 </ul>
-            </div>    
+            </div>
             <div class="home-box-2">
-                <img src="imgs/wine-church.png" alt="photo of a church">
-                <img src="imgs/train-falling.png" alt="train falling">
-                <img src="imgs/grape-party-2.png" alt="grape party">
-                <img src="imgs/sagu.png" alt="a typical food">
-                <img src="imgs/snow.png" alt="photo of snow in the city">
-                <img src="imgs/winter.png" alt="a rainy day in the city">     
-                <img src="imgs/prenda.png" alt="couples dancing a typical music">     
-                <img src="imgs/chimarrao.png" alt="a typical drink">    
-            </div>   
+                <img src="imgs/wine-church.png" alt="photo of a church" />
+                <img src="imgs/train-falling.png" alt="train falling" />
+                <img src="imgs/grape-party-2.png" alt="grape party" />
+                <img src="imgs/sagu.png" alt="a typical food" />
+                <img src="imgs/snow.png" alt="photo of snow in the city" />
+                <img src="imgs/winter.png" alt="a rainy day in the city" />
+                <img
+                    src="imgs/prenda.png"
+                    alt="couples dancing a typical music"
+                />
+                <img src="imgs/chimarrao.png" alt="a typical drink" />
+            </div>
         </section>
-<!--Footer with display flex organizing three items that connects with other pages-->   
+        <!--Footer with display flex organizing three items that connects with other pages-->
         <footer class="footer">
             <ul class="footer-group">
-                <li class="footer-item"><a class="footer-text" href="pages/the-city.html">The City</a></li>
-                <li class="footer-item"><a class="footer-text" href="pages/lets-eat.html">Food</a></li>
-                <li class="footer-item"><a class="footer-text" href="pages/more-and-more.html">Curiosities</a></li>
+                <li class="footer-item">
+                    <a class="footer-text" href="pages/the-city.html"
+                        >The City</a
+                    >
+                </li>
+                <li class="footer-item">
+                    <a class="footer-text" href="pages/lets-eat.html">Food</a>
+                </li>
+                <li class="footer-item">
+                    <a class="footer-text" href="pages/more-and-more.html"
+                        >Curiosities</a
+                    >
+                </li>
             </ul>
-        </footer>      
-</body>
+        </footer>
+    </body>
 </html>
