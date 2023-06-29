@@ -110,7 +110,7 @@ body {
 /* food - block elements */
 
 .container-food {
-    padding: 80px;
+    padding: 8%;
 }
 
 .box-title {
@@ -369,6 +369,15 @@ h2 {
             grid-template-columns: 1fr 1fr;
         }
 
+    /* food */
+        .container-food {
+            padding: 4%;
+        }
+
+        .box-text {
+            padding: 4%;
+        }
+
     }
 
 
@@ -516,6 +525,28 @@ h2 {
         .home-box-2 {
             display: grid;
             grid-template-columns: 1fr;
+        }
+
+        /* food */
+        .container-food {
+            padding: 2%;
+        }
+
+        h1 {
+            font-size: 48px;
+        }
+        
+        h2 {
+            font-size: 24px;
+            margin-bottom: 24px;
+        }
+        
+        .content-text {
+            font-size: 16px;
+        }
+
+        .box-text {
+            padding: 2%;
         }
         
     
