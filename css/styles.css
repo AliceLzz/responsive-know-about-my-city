@@ -160,15 +160,15 @@ h2 {
 /* grape games - floated elements right */
 
 .container-games {
-    padding: 32px;
+    padding: 8%;
 }
 
 .container-games img {
     float: right;
     margin-left: 24px;
     margin-bottom: 24px;
-    height: 400px;
-    width: 400px;
+    height: 40%;
+    width: 40%;
     border-radius: 8px;
 }
 
@@ -378,6 +378,17 @@ h2 {
             padding: 4%;
         }
 
+        /* grape games */
+
+        .container-games {
+            padding: 4%;
+        }
+
+        .container-games img {
+            height: 40%;
+            width: 40%;
+        }
+
     }
 
 
@@ -539,6 +550,7 @@ h2 {
         h2 {
             font-size: 24px;
             margin-bottom: 24px;
+            text-align: center;
         }
         
         .content-text {
@@ -546,8 +558,20 @@ h2 {
         }
 
         .box-text {
-            padding: 2%;
+            padding: 4%;
         }
+
+            /* grape games */
+
+        .container-games {
+            padding: 4%;
+        }
+
+        .container-games img {
+            height: 100%;
+            width: 100%;
+        }
+        
         
     
         }
