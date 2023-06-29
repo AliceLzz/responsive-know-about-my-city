@@ -175,7 +175,7 @@ h2 {
 /* curiosities - CSS box elements */
 
 .container-more {
-    margin: 40px 80px;
+    margin: 8% 12%;
 }
 
 .box-text-more {
@@ -389,7 +389,7 @@ h2 {
             width: 40%;
         }
 
-        /* the city - floated elements left */
+        /* the city */
 
         .container-city {
             padding: 4%;
@@ -398,6 +398,16 @@ h2 {
         .container-city img {
             height: 50%;
             width: 50%;
+        }
+
+        /* curiosities */
+
+        .container-more {
+            margin: 4%;
+        }
+
+        .box-text-more {
+            padding: 10%;
         }
 
     }
