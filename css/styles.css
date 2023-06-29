@@ -517,6 +517,16 @@ h2 {
             display: grid;
             grid-template-columns: 1fr;
         }
+
+         /* the city */
+        .container-city img {
+            height: 100%;
+            width: 100%;
+        }
+
+        h2 {
+            text-align: center;
+        }
         
     
         }
