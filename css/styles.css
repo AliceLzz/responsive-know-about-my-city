@@ -152,8 +152,8 @@ h2 {
     float: left;
     margin-right: 24px;
     margin-bottom: 24px;
-    height: 400px;
-    width: 400px;
+    height: 40%;
+    width: 40%;
     border-radius: 8px;
 }
 
@@ -389,6 +389,17 @@ h2 {
             width: 40%;
         }
 
+        /* the city - floated elements left */
+
+        .container-city {
+            padding: 4%;
+        }
+
+        .container-city img {
+            height: 50%;
+            width: 50%;
+        }
+
     }
 
 
@@ -571,7 +582,18 @@ h2 {
             height: 100%;
             width: 100%;
         }
-        
+
+        /* the city - floated elements left */
+
+        .container-city {
+            padding: 4%;
+        }
+
+        .container-city img {
+            height: 100%;
+            width: 100%;
+        }
+
         
     
         }
